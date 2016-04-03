@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>CadastroVisitante</title>
+
+    <!-- CadastroVisitante references -->
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+    <section id="app">
+        <header id="header">
+            <h1>Registro de visitantes</h1>
+        </header>
+        <div id="content">
+            <div id="visitantes">
+
+            </div>
+            <div id="novoVisitante">
+                <input type="text" id="nomeVisitante" placeholder="Nome" />
+                <button id="btnAdicionarVisitante">Adicionar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    <script src="scripts/jquery-1.10.2.min.js"></script>
+    <script src="scripts/ajaxHelper.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/app.js" ></script>
+</body>
+</html>
